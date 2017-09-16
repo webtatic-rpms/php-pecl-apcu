@@ -9,7 +9,7 @@
 Summary:       APCu - APC User Cache
 Name:          %{basepkg}-pecl-apcu
 Version:       4.0.11
-Release:       1%{?dist}
+Release:       2%{?dist}
 License:       PHP
 Group:         Development/Languages
 URL:           http://pecl.php.net/package/APCu
@@ -203,6 +203,9 @@ fi
 %{php_ztsincldir}/ext/%{pecl_name}
 
 %changelog
+* Sat Sep 16 2017 Andy Thompson <andy@webtatic.com> - 4.0.11-2
+- rebuild for EL7.4
+
 * Mon May 02 2016 Andy Thompson <andy@webtatic.com> - 4.0.11-1
 - Update to apcu 4.0.11
 
